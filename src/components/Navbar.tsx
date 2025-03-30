@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, TrendingUp } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
 
 const Navbar = () => {
@@ -17,17 +17,17 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <div className="text-2xl font-bold flex flex-row items-center">
-              <span className="text-simon-red">S</span>
-              <span className="text-simon-blue">I</span>
-              <span className="text-simon-green">M</span>
-              <span className="text-simon-yellow">O</span>
-              <span className="text-white">N</span>
-              <div className="mx-1"></div>
-              <span className="text-simon-red">S</span>
-              <span className="text-simon-blue">A</span>
-              <span className="text-simon-green">Y</span>
-              <span className="text-simon-yellow">S</span>
+            <div className="flex items-center">
+              <img 
+                src="/lovable-uploads/a1c97208-44f3-43d1-9df8-61e76d37eec4.png" 
+                alt="TradersEdgeAlerts Logo" 
+                className="w-8 h-8 mr-2"
+              />
+              <div className="text-2xl font-bold flex items-center">
+                <span className="text-white">Traders</span>
+                <span className="text-simon-green">Edge</span>
+                <span className="text-white">Alerts</span>
+              </div>
             </div>
           </div>
           

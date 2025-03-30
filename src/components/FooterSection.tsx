@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin, TrendingUp } from 'lucide-react';
 
 const FooterSection = () => {
   return (
@@ -8,18 +8,16 @@ const FooterSection = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-1">
-            <div className="mb-4">
-              <div className="text-2xl font-bold flex flex-row items-center">
-                <span className="text-simon-red">S</span>
-                <span className="text-simon-blue">I</span>
-                <span className="text-simon-green">M</span>
-                <span className="text-simon-yellow">O</span>
-                <span className="text-white">N</span>
-                <div className="mx-1"></div>
-                <span className="text-simon-red">S</span>
-                <span className="text-simon-blue">A</span>
-                <span className="text-simon-green">Y</span>
-                <span className="text-simon-yellow">S</span>
+            <div className="mb-4 flex items-center">
+              <img 
+                src="/lovable-uploads/a1c97208-44f3-43d1-9df8-61e76d37eec4.png" 
+                alt="TradersEdgeAlerts Logo" 
+                className="w-8 h-8 mr-2"
+              />
+              <div className="text-2xl font-bold flex items-center">
+                <span className="text-white">Traders</span>
+                <span className="text-simon-green">Edge</span>
+                <span className="text-white">Alerts</span>
               </div>
             </div>
             <p className="text-gray-400 mb-4">
@@ -68,7 +66,7 @@ const FooterSection = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Mail size={18} className="text-simon-blue mr-2 mt-1 flex-shrink-0" />
-                <span className="text-gray-400">support@simmonssayz.com</span>
+                <span className="text-gray-400">support@tradersedgealerts.com</span>
               </li>
               <li className="flex items-start">
                 <Phone size={18} className="text-simon-blue mr-2 mt-1 flex-shrink-0" />
@@ -84,7 +82,7 @@ const FooterSection = () => {
         
         <div className="mt-10 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} SimmonsSayz. All rights reserved.
+            &copy; {new Date().getFullYear()} TradersEdgeAlerts. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-500 hover:text-gray-400 text-sm">Privacy Policy</a>

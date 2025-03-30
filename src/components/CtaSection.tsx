@@ -15,7 +15,7 @@ const CtaSection = () => {
                 Ready to Transform Your <span className="neon-text">Trading</span>?
               </h2>
               <p className="text-xl text-gray-300 mb-6">
-                Join SimmonsSayz today and take advantage of our 14-day free trial. No credit card required.
+                Join TradersEdgeAlerts today and take advantage of our 14-day free trial. No credit card required.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button className="bg-simon-green text-black hover:bg-simon-green/80 font-semibold px-8 py-6 rounded-md text-lg">
@@ -30,8 +30,8 @@ const CtaSection = () => {
             <div className="md:w-2/5 flex justify-center">
               <div className="relative">
                 <img 
-                  src="/lovable-uploads/bf468130-81f3-4ce2-b051-645078aa45be.png" 
-                  alt="SimmonsSayz Logo" 
+                  src="/lovable-uploads/a1c97208-44f3-43d1-9df8-61e76d37eec4.png" 
+                  alt="TradersEdgeAlerts Logo" 
                   className="w-40 h-40 md:w-52 md:h-52 object-contain animate-pulse-glow"
                 />
                 <div className="absolute -inset-1 bg-gradient-to-r from-simon-blue to-simon-green opacity-30 blur-xl -z-10 rounded-full"></div>

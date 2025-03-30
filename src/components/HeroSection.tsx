@@ -13,7 +13,7 @@ const HeroSection = () => {
               Trade Smarter, <span className="neon-text">Not Harder</span>
             </h1>
             <p className="text-xl mb-8 text-gray-300">
-              SimmonsSayz provides clear trading signals with proven results. 
+              TradersEdgeAlerts provides clear trading signals with proven results. 
               Our technology helps you make informed decisions in any market condition.
             </p>
             
