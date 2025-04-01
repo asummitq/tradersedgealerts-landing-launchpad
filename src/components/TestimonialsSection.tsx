@@ -7,13 +7,13 @@ const testimonials = [
   {
     name: "Alex Johnson",
     role: "Day Trader",
-    content: "SimmonsSayz has completely transformed my trading strategy. The signals are incredibly accurate, and I've seen a 32% increase in my portfolio since I started using it.",
+    content: "TradersEdgeAlerts has completely transformed my trading strategy. The signals are incredibly accurate, and I've seen a 32% increase in my portfolio since I started using it.",
     rating: 5
   },
   {
     name: "Sarah Williams",
     role: "Swing Trader",
-    content: "As someone who doesn't have time to watch the markets all day, SimmonsSayz has been a game-changer. The alerts help me catch opportunities I would have otherwise missed.",
+    content: "As someone who doesn't have time to watch the markets all day, TradersEdgeAlerts has been a game-changer. The alerts help me catch opportunities I would have otherwise missed.",
     rating: 5
   },
   {
@@ -25,7 +25,7 @@ const testimonials = [
   {
     name: "Rebecca Taylor",
     role: "Investment Advisor",
-    content: "I recommend SimmonsSayz to all my clients. The educational resources are fantastic for beginners, and the advanced tools satisfy even the most experienced traders.",
+    content: "I recommend TradersEdgeAlerts to all my clients. The educational resources are fantastic for beginners, and the advanced tools satisfy even the most experienced traders.",
     rating: 5
   }
 ];
@@ -59,7 +59,7 @@ const TestimonialsSection = () => {
             What Our Traders <span className="neon-text">Are Saying</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Join thousands of satisfied traders who are already profiting with SimmonsSayz.
+            Join thousands of satisfied traders who are already profiting with TradersEdgeAlerts.
           </p>
           <div className="neon-line max-w-xs mx-auto mt-6"></div>
         </div>
