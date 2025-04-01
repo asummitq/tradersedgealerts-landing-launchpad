@@ -18,11 +18,6 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex items-center">
-              <img 
-                src="/lovable-uploads/a1c97208-44f3-43d1-9df8-61e76d37eec4.png" 
-                alt="TradersEdgeAlerts Logo" 
-                className="w-8 h-8 mr-2"
-              />
               <div className="text-2xl font-bold flex items-center">
                 <span className="text-white">Traders</span>
                 <span className="text-simon-green">Edge</span>
@@ -35,7 +30,6 @@ const Navbar = () => {
             <div className="hidden md:flex items-center space-x-8">
               <a href="#features" className="text-gray-300 hover:text-white transition-colors">Features</a>
               <a href="#charts" className="text-gray-300 hover:text-white transition-colors">Charts</a>
-              <a href="#testimonials" className="text-gray-300 hover:text-white transition-colors">Testimonials</a>
               <a href="#pricing" className="text-gray-300 hover:text-white transition-colors">Pricing</a>
               <a href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</a>
             </div>
@@ -78,13 +72,6 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Charts
-            </a>
-            <a
-              href="#testimonials"
-              className="block py-3 text-gray-300 hover:text-white border-b border-simon-blue/10"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Testimonials
             </a>
             <a
               href="#pricing"

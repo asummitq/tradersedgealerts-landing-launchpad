@@ -9,11 +9,6 @@ const FooterSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-1">
             <div className="mb-4 flex items-center">
-              <img 
-                src="/lovable-uploads/a1c97208-44f3-43d1-9df8-61e76d37eec4.png" 
-                alt="TradersEdgeAlerts Logo" 
-                className="w-8 h-8 mr-2"
-              />
               <div className="text-2xl font-bold flex items-center">
                 <span className="text-white">Traders</span>
                 <span className="text-simon-green">Edge</span>
