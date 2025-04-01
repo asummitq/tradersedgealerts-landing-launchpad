@@ -1,13 +1,13 @@
 
 import React from 'react';
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin, TrendingUp } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Mail } from 'lucide-react';
 
 const FooterSection = () => {
   return (
     <footer className="bg-simon-dark-blue py-10">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="col-span-1 md:col-span-1">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="col-span-1">
             <div className="mb-4 flex items-center">
               <div className="text-2xl font-bold flex items-center">
                 <span className="text-white">Traders</span>
@@ -51,27 +51,17 @@ const FooterSection = () => {
               <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">About Us</a></li>
               <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">Team</a></li>
               <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">Careers</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">Press</a></li>
               <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">Blog</a></li>
             </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-white font-semibold mb-4">Contact</h3>
-            <ul className="space-y-3">
-              <li className="flex items-start">
-                <Mail size={18} className="text-simon-blue mr-2 mt-1 flex-shrink-0" />
-                <span className="text-gray-400">support@tradersedgealerts.com</span>
-              </li>
-              <li className="flex items-start">
-                <Phone size={18} className="text-simon-blue mr-2 mt-1 flex-shrink-0" />
-                <span className="text-gray-400">+1 (888) 555-1234</span>
-              </li>
-              <li className="flex items-start">
-                <MapPin size={18} className="text-simon-blue mr-2 mt-1 flex-shrink-0" />
-                <span className="text-gray-400">123 Trading St, Financial District<br />New York, NY 10001</span>
-              </li>
-            </ul>
+            <div className="mt-6">
+              <h3 className="text-white font-semibold mb-4">Contact</h3>
+              <ul className="space-y-3">
+                <li className="flex items-start">
+                  <Mail size={18} className="text-simon-blue mr-2 mt-1 flex-shrink-0" />
+                  <span className="text-gray-400">info@tradersedgealerts.com</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         

@@ -43,7 +43,7 @@ const FeaturesSection = () => {
             Powerful Trading <span className="neon-text">Features</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            SimmonsSayz provides everything you need to analyze markets, execute trades, and manage your portfolio effectively.
+            TradersEdge provides everything you need to analyze markets, execute trades, and manage your portfolio effectively.
           </p>
           <div className="neon-line max-w-xs mx-auto mt-6"></div>
         </div>
