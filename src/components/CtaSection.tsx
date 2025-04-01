@@ -28,13 +28,14 @@ const CtaSection = () => {
               </div>
             </div>
             <div className="md:w-2/5 flex justify-center">
-              <div className="relative">
-                <img 
-                  src="/lovable-uploads/a1c97208-44f3-43d1-9df8-61e76d37eec4.png" 
-                  alt="TradersEdgeAlerts Logo" 
-                  className="w-40 h-40 md:w-52 md:h-52 object-contain animate-pulse-glow"
-                />
-                <div className="absolute -inset-1 bg-gradient-to-r from-simon-blue to-simon-green opacity-30 blur-xl -z-10 rounded-full"></div>
+              <div className="relative bg-gradient-to-r from-simon-blue to-simon-green p-8 rounded-xl opacity-70">
+                <h3 className="text-2xl font-bold text-white">Premium Features</h3>
+                <ul className="mt-4 space-y-2 text-white">
+                  <li>• Advanced Trade Signals</li>
+                  <li>• Real-time Market Data</li>
+                  <li>• Trading Strategy Library</li>
+                  <li>• 24/7 Expert Support</li>
+                </ul>
               </div>
             </div>
           </div>
