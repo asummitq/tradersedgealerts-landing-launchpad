@@ -3,10 +3,7 @@ import React from 'react';
 import { 
   LineChart, 
   BarChart3, 
-  Bell, 
-  Smartphone, 
-  Lock, 
-  Lightbulb 
+  Bell
 } from 'lucide-react';
 
 const features = [
@@ -24,21 +21,6 @@ const features = [
     icon: <BarChart3 className="h-10 w-10" />,
     title: "Performance Tracking",
     description: "Comprehensive analytics to monitor your trading performance and improve strategies."
-  },
-  {
-    icon: <Smartphone className="h-10 w-10" />,
-    title: "Mobile Trading",
-    description: "Trade on the go with our powerful mobile app for iOS and Android devices."
-  },
-  {
-    icon: <Lock className="h-10 w-10" />,
-    title: "Secure Platform",
-    description: "Enterprise-grade security with encryption and two-factor authentication."
-  },
-  {
-    icon: <Lightbulb className="h-10 w-10" />,
-    title: "Trading Education",
-    description: "Extensive resources to help you master trading concepts and strategies."
   }
 ];
 

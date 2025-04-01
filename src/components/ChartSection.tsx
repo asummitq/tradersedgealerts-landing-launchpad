@@ -4,15 +4,13 @@ import { Card } from '@/components/ui/card';
 import {
   Area,
   AreaChart,
-  Bar,
-  BarChart,
-  CartesianGrid,
-  Line,
   LineChart,
+  Line,
   ResponsiveContainer,
   Tooltip,
   XAxis,
-  YAxis
+  YAxis,
+  CartesianGrid
 } from 'recharts';
 
 // Sample data for charts
@@ -39,14 +37,6 @@ const areaData = [
   { name: 'May', value: 4800, value2: 4100 },
   { name: 'Jun', value: 3800, value2: 3000 },
   { name: 'Jul', value: 4300, value2: 3500 },
-];
-
-const barData = [
-  { name: 'Mon', value: 20 },
-  { name: 'Tue', value: 30 },
-  { name: 'Wed', value: 40 },
-  { name: 'Thu', value: 30 },
-  { name: 'Fri', value: 60 },
 ];
 
 const ChartSection = () => {
@@ -125,32 +115,6 @@ const ChartSection = () => {
                     fill="rgba(47, 239, 16, 0.2)" 
                   />
                 </AreaChart>
-              </ResponsiveContainer>
-            </div>
-          </Card>
-
-          <Card className="bg-simon-dark-blue/60 border-simon-blue/20 p-6 shadow-lg shadow-simon-blue/5 lg:col-span-2">
-            <h3 className="text-xl font-medium mb-4">Weekly Trading Activity</h3>
-            <div className="h-60">
-              <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={barData} margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#2A3747" />
-                  <XAxis dataKey="name" stroke="#6C7A89" />
-                  <YAxis stroke="#6C7A89" />
-                  <Tooltip 
-                    contentStyle={{ 
-                      backgroundColor: '#0D1B2A', 
-                      borderColor: '#1DB9EC',
-                      borderRadius: '0.5rem',
-                      color: '#fff' 
-                    }} 
-                  />
-                  <Bar 
-                    dataKey="value" 
-                    fill="rgba(29, 185, 236, 0.8)" 
-                    radius={[4, 4, 0, 0]}
-                  />
-                </BarChart>
               </ResponsiveContainer>
             </div>
           </Card>
