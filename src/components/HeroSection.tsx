@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, LineChart, TrendingUp, Shield } from 'lucide-react';
+import { LineChart, TrendingUp, Shield } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -49,13 +49,9 @@ const HeroSection = () => {
               </div>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div>
               <Button className="bg-simon-blue hover:bg-simon-blue/80 text-white font-semibold px-8 py-6 rounded-md text-lg">
                 Start Trading Now
-              </Button>
-              <Button variant="outline" className="border-simon-blue text-simon-blue hover:bg-simon-blue/10 font-semibold px-8 py-6 rounded-md text-lg">
-                View Demo
-                <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </div>
           </div>
