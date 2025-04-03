@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu, X, TrendingUp } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex items-center">
-              <div className="text-2xl font-bold flex items-center">
+              <div className="text-xl md:text-2xl font-bold flex items-center">
                 <span className="text-white">Traders</span>
                 <span className="text-simon-green">Edge</span>
                 <span className="text-white">Alerts</span>
