@@ -5,7 +5,6 @@ import LogoSection from '@/components/LogoSection';
 import HeroSection from '@/components/HeroSection';
 import FeaturesSection from '@/components/FeaturesSection';
 import ChartSection from '@/components/ChartSection';
-import PricingSection from '@/components/PricingSection';
 import CtaSection from '@/components/CtaSection';
 import FooterSection from '@/components/FooterSection';
 
@@ -24,10 +23,6 @@ const Index = () => {
         
         <div id="charts">
           <ChartSection />
-        </div>
-        
-        <div id="pricing">
-          <PricingSection />
         </div>
         
         <div id="contact">
