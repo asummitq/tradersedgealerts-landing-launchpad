@@ -49,7 +49,6 @@ const FooterSection = () => {
             <h3 className="text-white font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">About Us</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">Team</a></li>
               <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">Careers</a></li>
               <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">Blog</a></li>
             </ul>
