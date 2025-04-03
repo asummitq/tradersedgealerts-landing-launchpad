@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, MessageSquare } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const CtaSection = () => {
   return (
@@ -21,10 +21,6 @@ const CtaSection = () => {
                 <Button className="bg-simon-green text-black hover:bg-simon-green/80 font-semibold px-8 py-6 rounded-md text-lg">
                   Start Free Trial
                   <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-                <Button variant="outline" className="border-white/20 text-white hover:bg-white/5 font-semibold px-8 py-6 rounded-md text-lg">
-                  24/7 AI Chat Bot Support
-                  <MessageSquare className="ml-2 h-5 w-5" />
                 </Button>
               </div>
             </div>
