@@ -19,8 +19,8 @@ const features = [
   },
   {
     icon: <BarChart3 className="h-10 w-10" />,
-    title: "Performance Tracking",
-    description: "Comprehensive analytics to monitor your trading performance and improve strategies."
+    title: "Market Analytics",
+    description: "Comprehensive analytics to monitor various markets and improve strategies."
   }
 ];
 
