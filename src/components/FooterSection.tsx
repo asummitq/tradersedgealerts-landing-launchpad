@@ -37,10 +37,9 @@ const FooterSection = () => {
           <div>
             <h3 className="text-white font-semibold mb-4">Products</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">Trading Signals</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">Chart Analysis</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">Risk Management</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">Mobile App</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">IdeaGen</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">SectorScope</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">News</a></li>
               <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">API</a></li>
             </ul>
           </div>
@@ -51,6 +50,7 @@ const FooterSection = () => {
               <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">About Us</a></li>
               <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">Careers</a></li>
               <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">Blog</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-simon-blue transition-colors">24/7 EdgeBot Support</a></li>
             </ul>
             <div className="mt-6">
               <h3 className="text-white font-semibold mb-4">Contact</h3>
