@@ -14,8 +14,8 @@ const features = [
   },
   {
     icon: <Bell className="h-10 w-10" />,
-    title: "Real-time Alerts",
-    description: "Instant notifications for trading opportunities based on your custom parameters."
+    title: "Real-Time Buy Points",
+    description: "Curated trading opportunities based on proprietary parameters."
   },
   {
     icon: <BarChart3 className="h-10 w-10" />,
